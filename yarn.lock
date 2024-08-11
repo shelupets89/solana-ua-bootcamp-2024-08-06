@@ -1653,6 +1653,12 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"practice-2@workspace:practice-2":
+  version: 0.0.0-use.local
+  resolution: "practice-2@workspace:practice-2"
+  languageName: unknown
+  linkType: soft
+
 "proc-log@npm:^4.1.0, proc-log@npm:^4.2.0":
   version: 4.2.0
   resolution: "proc-log@npm:4.2.0"
