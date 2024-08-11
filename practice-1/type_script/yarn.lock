@@ -544,6 +544,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/node@npm:^22.2.0":
+  version: 22.2.0
+  resolution: "@types/node@npm:22.2.0"
+  dependencies:
+    undici-types: ~6.13.0
+  checksum: 63724799337bfb57719a1992690e738341d824e1744a2ac52c5278a008fbfadf99765519c19858feb80418cc7da0d5c8bdf7ea4d82973869b3882bd602c48ade
+  languageName: node
+  linkType: hard
+
 "@types/uuid@npm:^8.3.4":
   version: 8.3.4
   resolution: "@types/uuid@npm:8.3.4"
@@ -1647,24 +1656,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"practice-1@workspace:practice-1":
-  version: 0.0.0-use.local
-  resolution: "practice-1@workspace:practice-1"
-  languageName: unknown
-  linkType: soft
-
-"practice-2@workspace:practice-2":
-  version: 0.0.0-use.local
-  resolution: "practice-2@workspace:practice-2"
-  languageName: unknown
-  linkType: soft
-
-"practice-3@workspace:practice-3":
-  version: 0.0.0-use.local
-  resolution: "practice-3@workspace:practice-3"
-  languageName: unknown
-  linkType: soft
-
 "proc-log@npm:^4.1.0, proc-log@npm:^4.2.0":
   version: 4.2.0
   resolution: "proc-log@npm:4.2.0"
@@ -1801,17 +1792,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"solana-ua-bootcamp-2024-08-06@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "solana-ua-bootcamp-2024-08-06@workspace:."
-  dependencies:
-    "@solana-developers/helpers": ^2.4.0
-    "@solana/web3.js": ^1.95.2
-    dotenv: ^16.4.5
-    esrun: ^3.2.26
-  languageName: unknown
-  linkType: soft
-
 "sprintf-js@npm:^1.1.3":
   version: 1.1.3
   resolution: "sprintf-js@npm:1.1.3"
@@ -1925,6 +1905,18 @@ __metadata:
   checksum: 74fce0e100f1ebd95b8995fbbd0e6c91bdd8f4c35c00d4da62e285a3363aaa534de40a80db30ecfd388ed7c313c42d930ee0eaf108e8114214b180eec3dbe6f5
   languageName: node
   linkType: hard
+
+"type_script@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "type_script@workspace:."
+  dependencies:
+    "@solana-developers/helpers": ^2.4.0
+    "@solana/web3.js": ^1.95.2
+    "@types/node": ^22.2.0
+    dotenv: ^16.4.5
+    esrun: ^3.2.26
+  languageName: unknown
+  linkType: soft
 
 "undici-types@npm:~6.13.0":
   version: 6.13.0

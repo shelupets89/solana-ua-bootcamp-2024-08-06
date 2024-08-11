@@ -1,5 +1,5 @@
 import { Keypair } from "@solana/web3.js";
-import { KeyPair } from "../generate-keypair-by-search-key";
+import { KeyPair } from "./generate-keypair-by-search-key";
 
 type GenerateKeypairsParams = {
   withLogs?: boolean;
